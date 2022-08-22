@@ -10,6 +10,13 @@ namespace ConsoleArt
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("ccccccc   jjjjjj ");
+            Console.WriteLine("c            j ");
+            Console.WriteLine("c            j ");
+            Console.WriteLine("c            j ");
+            Console.WriteLine("ccccccc  jjjjj ");
+        Console.ReadLine();
         }
+
     }
 }
