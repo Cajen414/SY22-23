@@ -1,0 +1,8 @@
+C:\Users\Cajen414\Documents\SY22-23\C#\ConsoleArt\ConsoleArt\bin\Debug\ConsoleArt.exe.config
+C:\Users\Cajen414\Documents\SY22-23\C#\ConsoleArt\ConsoleArt\bin\Debug\ConsoleArt.exe
+C:\Users\Cajen414\Documents\SY22-23\C#\ConsoleArt\ConsoleArt\bin\Debug\ConsoleArt.pdb
+C:\Users\Cajen414\Documents\SY22-23\C#\ConsoleArt\ConsoleArt\obj\Debug\ConsoleArt.csproj.AssemblyReference.cache
+C:\Users\Cajen414\Documents\SY22-23\C#\ConsoleArt\ConsoleArt\obj\Debug\ConsoleArt.csproj.SuggestedBindingRedirects.cache
+C:\Users\Cajen414\Documents\SY22-23\C#\ConsoleArt\ConsoleArt\obj\Debug\ConsoleArt.csproj.CoreCompileInputs.cache
+C:\Users\Cajen414\Documents\SY22-23\C#\ConsoleArt\ConsoleArt\obj\Debug\ConsoleArt.exe
+C:\Users\Cajen414\Documents\SY22-23\C#\ConsoleArt\ConsoleArt\obj\Debug\ConsoleArt.pdb
