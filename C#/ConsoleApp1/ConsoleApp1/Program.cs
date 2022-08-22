@@ -11,7 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
     
-            ShowQuestion("What is 1+1?", " a)1", " b)2", " c) 0", " d) 6", "b");
+            ShowQuestion("What is 1+2?", " a)1", " b)3", " c) 0", " d) 6", "b");
             ShowQuestion("What is 4+1?", " a)1", " b)5", " c) 0", " d) 6", "b");
             ShowQuestion("What is 3+1?", " a)1", " b)4", " c) 0", " d) 6", "b");
             Console.ReadKey();
