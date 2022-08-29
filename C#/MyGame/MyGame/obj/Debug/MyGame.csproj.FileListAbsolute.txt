@@ -1,0 +1,6 @@
+C:\Users\Cajen414\Documents\SY22-23\C#\MyGame\MyGame\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\Cajen414\Documents\SY22-23\C#\MyGame\MyGame\obj\Debug\MyGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\Cajen414\Documents\SY22-23\C#\MyGame\MyGame\obj\Debug\MyGame.Form1.resources
+C:\Users\Cajen414\Documents\SY22-23\C#\MyGame\MyGame\obj\Debug\MyGame.Properties.Resources.resources
+C:\Users\Cajen414\Documents\SY22-23\C#\MyGame\MyGame\obj\Debug\MyGame.csproj.GenerateResource.cache
+C:\Users\Cajen414\Documents\SY22-23\C#\MyGame\MyGame\obj\Debug\MyGame.csproj.CoreCompileInputs.cache

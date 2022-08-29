@@ -1,0 +1,11 @@
+C:\Users\Cajen414\Documents\SY22-23\C#\games\games\bin\Debug\games.exe.config
+C:\Users\Cajen414\Documents\SY22-23\C#\games\games\bin\Debug\games.exe
+C:\Users\Cajen414\Documents\SY22-23\C#\games\games\bin\Debug\games.pdb
+C:\Users\Cajen414\Documents\SY22-23\C#\games\games\obj\Debug\games.csproj.AssemblyReference.cache
+C:\Users\Cajen414\Documents\SY22-23\C#\games\games\obj\Debug\games.csproj.SuggestedBindingRedirects.cache
+C:\Users\Cajen414\Documents\SY22-23\C#\games\games\obj\Debug\games.Form1.resources
+C:\Users\Cajen414\Documents\SY22-23\C#\games\games\obj\Debug\games.Properties.Resources.resources
+C:\Users\Cajen414\Documents\SY22-23\C#\games\games\obj\Debug\games.csproj.GenerateResource.cache
+C:\Users\Cajen414\Documents\SY22-23\C#\games\games\obj\Debug\games.csproj.CoreCompileInputs.cache
+C:\Users\Cajen414\Documents\SY22-23\C#\games\games\obj\Debug\games.exe
+C:\Users\Cajen414\Documents\SY22-23\C#\games\games\obj\Debug\games.pdb
