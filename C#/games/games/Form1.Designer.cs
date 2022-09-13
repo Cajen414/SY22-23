@@ -29,21 +29,24 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.player2 = new System.Windows.Forms.PictureBox();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.player1 = new System.Windows.Forms.PictureBox();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            ((System.ComponentModel.ISupportInitialize)(this.player2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.player1)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // player2
             // 
-            this.pictureBox1.Image = global::games.Properties.Resources.unnamed;
-            this.pictureBox1.Location = new System.Drawing.Point(371, 111);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(175, 176);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.player2.Image = global::games.Properties.Resources.unnamed;
+            this.player2.Location = new System.Drawing.Point(456, 111);
+            this.player2.Name = "player2";
+            this.player2.Size = new System.Drawing.Size(175, 176);
+            this.player2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.player2.TabIndex = 0;
+            this.player2.TabStop = false;
             // 
             // progressBar1
             // 
@@ -56,29 +59,43 @@
             // 
             this.timer1.Enabled = true;
             this.timer1.Interval = 500;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
+            // 
+            // player1
+            // 
+            this.player1.Image = global::games.Properties.Resources.unnamed;
+            this.player1.Location = new System.Drawing.Point(50, 111);
+            this.player1.Name = "player1";
+            this.player1.Size = new System.Drawing.Size(175, 176);
+            this.player1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.player1.TabIndex = 2;
+            this.player1.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.player1);
             this.Controls.Add(this.progressBar1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.player2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.player2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.player1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox player2;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.PictureBox player1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
 

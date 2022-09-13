@@ -6,55 +6,119 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections;
 using System.Windows.Forms;
 
 namespace games
+
 {
     public partial class Form1 : Form
     {
+        player p1;
+        player p2;
+        ArrayList objects = new ArrayList();
         public Form1()
         {
+
             InitializeComponent();
+            p1 = new player(player1, this);
+            p2 = new player(player2, this);
+            objects.Add(p1);
+            objects.Add(p2);
+        }
+        public bool isClear(PictureBox P, int X, int Y)
+        {
+            foreach (var item in Controls)
+            {
+                if (typeof(PictureBox) == item.GetType() && P != item)
+                {
+                    PictureBox pictureBox = (PictureBox)item;
+                    Rectangle newRect = new Rectangle(P.Location.X + X, P.Location.Y + Y, P.Width, P.Height);
+                    if (pictureBox.Bounds.IntersectsWith(newRect))
+                        return false;
+                }
+            }
+            return true;
         }
 
         private void Form1_KeyPress(object sender, KeyPressEventArgs e)
         {
-          
+
+
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            int speed = 25;
+
+            int speed = 5;
             if (e.Shift && progressBar1.Value > 2)
             {
                 speed = 10;
                 progressBar1.Value--;
             }
+
+
+            if (e.KeyCode == Keys.Left)
+            {
+                p1.moveleft();
+            }
+            if (e.KeyCode == Keys.Right)
+            {
+                p1.moveright();
+            }
+            if (e.KeyCode == Keys.Up)
+            {
+                p1.moveup();
+            }
+            if (e.KeyCode == Keys.Down)
+            {
+                p1.movedown();
+            }
             if (e.KeyCode == Keys.A)
             {
-                pictureBox1.Location=new Point(pictureBox1.Location.X-speed,pictureBox1.Location.Y);  
-         
+                p2.moveleft();
             }
             if (e.KeyCode == Keys.D)
             {
-                pictureBox1.Location = new Point(pictureBox1.Location.X +speed, pictureBox1.Location.Y);
-         
+                p2.moveright();
             }
             if (e.KeyCode == Keys.W)
             {
-                pictureBox1.Location = new Point(pictureBox1.Location.X , pictureBox1.Location.Y-speed);
+                p2.moveup();
             }
             if (e.KeyCode == Keys.S)
             {
-                pictureBox1.Location = new Point(pictureBox1.Location.X , pictureBox1.Location.Y+speed);
+                p2.movedown();
+              
             }
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if(progressBar1.Value < progressBar1.Maximum)
-            progressBar1.Value++;
+            if (progressBar1.Value < progressBar1.Maximum)
+                progressBar1.Value++;
+            foreach (player item in objects)
+            {
+                if (isClear(item.m_picture, 0, 5))
+                    item.tick();
+            }
 
+        }
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick_1(object sender, EventArgs e)
+        {
+            if (progressBar1.Value < progressBar1.Maximum)
+                progressBar1.Value++;
+            foreach (player item in objects)
+            {
+                if (isClear(item.m_picture, 0, 5))
+                    item.tick();
+            }
         }
     }
 }

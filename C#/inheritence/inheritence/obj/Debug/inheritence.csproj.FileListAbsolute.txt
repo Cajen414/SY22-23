@@ -1,0 +1,8 @@
+C:\Users\Cajen414\Documents\SY22-23\C#\inheritence\inheritence\bin\Debug\inheritence.exe.config
+C:\Users\Cajen414\Documents\SY22-23\C#\inheritence\inheritence\bin\Debug\inheritence.exe
+C:\Users\Cajen414\Documents\SY22-23\C#\inheritence\inheritence\bin\Debug\inheritence.pdb
+C:\Users\Cajen414\Documents\SY22-23\C#\inheritence\inheritence\obj\Debug\inheritence.csproj.AssemblyReference.cache
+C:\Users\Cajen414\Documents\SY22-23\C#\inheritence\inheritence\obj\Debug\inheritence.csproj.SuggestedBindingRedirects.cache
+C:\Users\Cajen414\Documents\SY22-23\C#\inheritence\inheritence\obj\Debug\inheritence.csproj.CoreCompileInputs.cache
+C:\Users\Cajen414\Documents\SY22-23\C#\inheritence\inheritence\obj\Debug\inheritence.exe
+C:\Users\Cajen414\Documents\SY22-23\C#\inheritence\inheritence\obj\Debug\inheritence.pdb
