@@ -21,7 +21,7 @@ namespace Game
         public void Add(Sprite s)
         {
             objects.Add(s);
-            s.setParent(this);
+           // s.setParent(this);
 
         }
         public bool isClear(PictureBox P, int X, int Y)
@@ -92,7 +92,7 @@ namespace Game
         {
             foreach (Sprite item in objects)
             {
-                item.tick();
+               // item.tick();
             }
         }
     }

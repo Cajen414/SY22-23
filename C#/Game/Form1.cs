@@ -24,7 +24,7 @@ namespace Game
             InitializeComponent();
             c = new Canvas(this);
             p1 = new Sprite(player);
-            p2 = new Chaser(player2);
+          //  p2 = new Chaser(player2);
             b1 = new Ball(Ballpicture, 5, 5);
             c.Add(p1);
             c.Add(p2);
@@ -104,7 +104,15 @@ namespace Game
             c.tick();
         }
 
+        private void player_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
